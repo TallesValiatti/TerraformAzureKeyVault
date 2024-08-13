@@ -1,5 +1,7 @@
 # Using Azure Key Vault to Store Sensitive Information in Terraform
 
-This repo is about securing secrets, such as connection strings, when creating infrastructure using IaC tools like Terraform, Bicep, and Pulumi.
+This repo focuses on securing secrets, such as connection strings, when creating infrastructure using IaC tools like Terraform, Bicep, and Pulumi.
 
-Inspired by the need for secure handling of sensitive information, this post demonstrates how to store secrets in Azure Key Vault and use them within Terraform code. By integrating Azure Key Vault, you can ensure that critical information remains secure while automating infrastructure deployment, enhancing both security and efficiency in your development process.
+The implementation demonstrates how to securely store sensitive information in Azure Key Vault and seamlessly integrate these secrets into Terraform code. By using Azure Key Vault, the solution ensures that critical information is protected throughout the infrastructure deployment process, maintaining security while automating the management of resources.
+
+This approach enhances both the security and efficiency of your development workflow, ensuring that sensitive data is handled correctly in cloud-based environments.
